@@ -58,8 +58,7 @@ func main() {
 	fmt.Printf("  周长: %.2f\n", circle.Perimeter())
 
 	// 接口的使用
-	var shape Shape
-	shape = rect
+	var shape Shape = rect
 	fmt.Println("\n通过Shape接口访问矩形:")
 	fmt.Printf("  面积: %.2f, 周长: %.2f\n", shape.Area(), shape.Perimeter())
 
